@@ -1,4 +1,4 @@
-Objective: Automated Trader for Stock Market.
+# Objective: Automated Trader for Stock Market.
 
 prerequisite:
  - sentiment analysis
