@@ -11,14 +11,17 @@ prerequisite:
 Dev checklist
 1. Main
   - API implementation
-    = Stock API
-    = Control API
+    + Stock API
+    + Control API
   - GUI implementation
-    = pyqt5
+    + pyqt5
   - required function list
-    = request order: buy
-    = request order: sell
+    + request order: buy
+    + request order: sell
     
 2. Analysis
   - Chart
+    
   - Article
+  - DART: Financial report
+  - Flags: union / strike
