@@ -1,4 +1,4 @@
-Objective: percieve real-life environment info to make decision in stock market.
+Objective: Automated Trader for Stock Market.
 
 prerequisite:
  - sentiment analysis
@@ -6,3 +6,19 @@ prerequisite:
  - summarization bot
  - graph analaysis
  - automation software
+ 
+ 
+Dev checklist
+1. Main
+  - API implementation
+    = Stock API
+    = Control API
+  - GUI implementation
+    = pyqt5
+  - required function list
+    = request order: buy
+    = request order: sell
+    
+2. Analysis
+  - Chart
+  - Article
