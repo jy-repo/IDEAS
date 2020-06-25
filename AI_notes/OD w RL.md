@@ -1,10 +1,14 @@
 # Object Detection w/ Reinforcement Learning
 
 ### 결론
+  > 미정
 
 
 ------------------
-### 방법
+### 내용
+  > To   
+  > Be   
+  > Filled   
 
 ------------------
 
