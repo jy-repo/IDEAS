@@ -13,13 +13,13 @@
   + 환경 (environment): 문제 세팅 S, A, R 포함
 ------------------
 ### Object Detection w/ Reinforcement Learning
-- 직접 Obejct Detection 에 관한 강화 학습 내용 없음
+- 결론: 직접 Obejct Detection 에 관한 강화 학습 내용 없음
 
 ### Region Proposal (Regression) w/ Reinforcement Learning
 
 - 결론
 - 내용
-  + **Active Object Localization with deep Reinforcement Learning**   
+  + **<< Active Object Localization with deep Reinforcement Learning >>**   
     1. Deep localization problem as Markov decision process (MDP)   
     1. 환경 (E): single image, bounding box
     1. 종료 상태: tight box around a target object
