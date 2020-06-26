@@ -36,4 +36,15 @@
       
   + Algorithm level
     * Cost sensitive learning   
+      - 예측 결과에 따른 cost 비교를 통해 가중치를 조절하여 학습
+      
+    * Ensemble learning
+      - 여러 개의 sub-classifier 를 제작(학습)하여 통합(투표)하는 방식
+      - bagging 기법
+      - boosting 기법
+    
+    * threshold-adjustment learning
+      - 학습 과정에서 threshold 값 변경
+      
+    
       
