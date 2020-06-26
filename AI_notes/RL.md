@@ -16,6 +16,19 @@
 
 - 결론
 - 내용
+  + **Active Object Localization with deep Reinforcement Learning**   
+    1. Deep localization problem as Markov decision process (MDP)   
+    1. 환경 (E): single image, bounding box
+    1. 종료 상태: tight box around a target object
+    1. 상태 (S): current visible region & past actions
+    1. 보상 (R): recieve rewards for each dicision (action)
+    1. 행동 (A): 8 transformations that can be applied to the bbox + 1 to terminate the search process   
+        1. Horizontal moves: left, right   
+        2. Vertical moves: up, down   
+        3. Scale chamges: bigger, smaller   
+        4. Aspect ratio changes: fatter, taller
+        5. terminate: trigger
+      
 - 참고한 자료
   + (2016) [*Reinforcement Learning for Visual Object Detection*](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7780685) Stefan Mathe, Aleksis Pirinen, Cristian Sminchiseseu.
   + (2019) [*Efficient Object Detection in Large Images using Deep Reinforcement Learning*](https://www.groundai.com/project/efficient-object-detection-in-large-images-using-deep-reinforcement-learning/1) Burak Uzkent, Christopher Yeh, Stefano Ermon.
