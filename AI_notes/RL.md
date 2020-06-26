@@ -21,13 +21,18 @@
     1. 환경 (E): single image, bounding box
     1. 종료 상태: tight box around a target object
     1. 상태 (S): current visible region & past actions
+        * (o, h)
+        * o : feature vector of the observed region // 244 x 244 by CNN (Zeiler and Fergus)   
+        * h : history of actions (10 past actions)   
     1. 보상 (R): recieve rewards for each dicision (action)
+        * IoU measurement   
+        * diff between s0 & s1 IoU   
     1. 행동 (A): 8 transformations that can be applied to the bbox + 1 to terminate the search process   
-        1. Horizontal moves: left, right   
-        2. Vertical moves: up, down   
-        3. Scale chamges: bigger, smaller   
-        4. Aspect ratio changes: fatter, taller
-        5. terminate: trigger
+        * Horizontal moves: left, right   
+        * Vertical moves: up, down   
+        * Scale chamges: bigger, smaller   
+        * Aspect ratio changes: fatter, taller
+        * terminate: trigger 
       
 - 참고한 자료
   + (2016) [*Reinforcement Learning for Visual Object Detection*](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7780685) Stefan Mathe, Aleksis Pirinen, Cristian Sminchiseseu.
