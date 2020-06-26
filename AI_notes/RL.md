@@ -33,6 +33,11 @@
         * Scale chamges: bigger, smaller   
         * Aspect ratio changes: fatter, taller
         * terminate: trigger 
+    1. 예측
+        * 여러번 예측 (최대 200)
+        * "trigger" 행동을 취하면 혹은 "trigger" 없이 40 행동을 취했으면 다음 예측 시작 // 화면의 큰 영역을 차이하는 박스로 부터 시작
+        * 다음 예측 시작 영역은 기존 크기의 75%, top-left to right-bottom 순서 고정
+    1. 결과: 기존 region proposal 방법에 비해 약 10%p 정도의 예측 정확도 향상
       
 - 참고한 자료
   + (2016) [*Reinforcement Learning for Visual Object Detection*](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7780685) Stefan Mathe, Aleksis Pirinen, Cristian Sminchiseseu.
