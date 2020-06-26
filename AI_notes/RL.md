@@ -13,6 +13,9 @@
   + 환경 (environment): 문제 세팅 S, A, R 포함
 ------------------
 ### Object Detection w/ Reinforcement Learning
+- 직접 Obejct Detection 에 관한 강화 학습 내용 없음
+
+### Region Proposal (Regression) w/ Reinforcement Learning
 
 - 결론
 - 내용
