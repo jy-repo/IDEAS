@@ -23,3 +23,17 @@
       
   + ROC (Receiver Operating Characteristic) curve: Recall-Fallout 변화를 시각화한 자료 // 그래프가 좌상점에 가까울수록 좋은 모델
   + AUC (Area Under Curve): ROC 커브의 아래 부분 면적 비율 // 1에 가까울수록 좋은 모델
+------------------------------
+# Data Imbalance 
+  + Data level
+    * under-sampling   
+      - 수가 적은 데이터 종류에 수가 많은 데이터 종류를 맞춰 데이터 세트 제작
+      - 많은 수의 데이터 가지고 있는 특성을 잃을 가능성 있음
+    
+    * over-sampling   
+      - 수가 많은 데이터 종류에 맞춰 수가 적은 데이터 종류를 증폭
+      - 적은 데이터 증폭으로 인해 특성 강화로 overfitting이 발생할 가능성 있음
+      
+  + Algorithm level
+    * Cost sensitive learning   
+      
