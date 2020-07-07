@@ -47,7 +47,8 @@
       - 학습 과정에서 threshold 값 변경
       
 ------------------------------
-# 상황 별 의미 & 대처 방법
+# 상황 별 의미 & 대처 방법   
+
 ### Low Training Acc.
   > Underfitting: "when the model neither learns from the training dataset nor generalizes well on the test dataset"   
   
@@ -63,8 +64,15 @@
   ref) https://www.quora.com/Given-a-feedforward-NN-with-low-training-accuracy-thus-low-test-accuracy-how-can-I-improve-the-training-accuracy-and-hopefully-the-test-accuracy   
   ref) https://towardsdatascience.com/overfitting-and-underfitting-in-machine-learning-89738c58f610
 
-
-
+### High Training Acc. & Low validation Acc.
+  > Overfitting: "when the model learns TOO good from training set but works poorly on valid & test dataset"
+  
+  Possible causes & solutions:
+  + fixed validation data -> try shuffling data
+  + hypothesis function is too complex -> use simper cost and loss function
+  + model's learning parameters are too big (memorization occurs) -> use regularization (i.e. dropout) || use smaller model (lesser parameters)
+  
+  
 
 
 
