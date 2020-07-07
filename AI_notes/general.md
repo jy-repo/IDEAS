@@ -72,7 +72,7 @@
   + hypothesis function is too complex -> use simper cost and loss function
   + model's learning parameters are too big (memorization occurs) -> use regularization (i.e. dropout) || use smaller model (lesser parameters)
   
-  
+  ref) https://datascience.stackexchange.com/questions/29893/high-model-accuracy-vs-very-low-validation-accuarcy
 
 
 
