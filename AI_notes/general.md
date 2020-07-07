@@ -46,5 +46,38 @@
     * threshold-adjustment learning
       - 학습 과정에서 threshold 값 변경
       
-    
+------------------------------
+# 상황 별 의미 & 대처 방법
+### Low Training Acc.
+  > Underfitting: "when the model neither learns from the training dataset nor generalizes well on the test dataset"   
+  
+  Try followings:
+  + Increase the model capacity
+  + Check for errors in code
+  + tune hyperparameters
+  + train it longer
+  + remove all forms of regularizations (L2, dropout, data augmentation)
+  + transfer learning
+  + more data (?)
+  
+  ref) https://www.quora.com/Given-a-feedforward-NN-with-low-training-accuracy-thus-low-test-accuracy-how-can-I-improve-the-training-accuracy-and-hopefully-the-test-accuracy   
+  ref) https://towardsdatascience.com/overfitting-and-underfitting-in-machine-learning-89738c58f610
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
